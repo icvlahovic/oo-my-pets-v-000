@@ -4,8 +4,8 @@ class Owner
   attr_reader :name, :species
   @@all = []
 
-  def initialize(name = nil, species = "human", pets)
-    @name = name
+  def initialize(name, species = "human", pets)
+    @name = nil
     @species = species
     @pets = {cats: [], dogs: [], fishes: []}
     @@all << self
