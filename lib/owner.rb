@@ -43,7 +43,7 @@ class Owner
   end
 
   def walk_dogs
-    @pets[:dogs].each { |dog| puts "The #{self.name} is happy" }
+    puts @pets[:dogs].length
   end
 
 
