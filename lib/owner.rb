@@ -44,19 +44,19 @@ class Owner
 
   def play_with_cats
     @pets[:cats].each do |cat|
-      @mood = "happy"
+      cat,mood=("happy")
     end
   end
 
   def walk_dogs
     @pets[:dogs].each do |dog|
-      @mood = "happy"
+      dog.mood=("happy")
     end
   end
 
   def feed_fish
     @pets[:fishes].each do |fish|
-      @mood = "happy"
+      fish.mood=("happy")
     end
   end
 
