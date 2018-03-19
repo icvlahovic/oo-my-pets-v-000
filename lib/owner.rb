@@ -38,6 +38,8 @@ class Owner
   end
 
   def buy_fish
+    new_fish = Fish.new
+    @pets << new_fish
   end
 
 
