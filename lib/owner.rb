@@ -27,18 +27,18 @@ class Owner
     "I am a #{self.species}."
   end
 
-  def buy_cat
-    new_cat = Cat.new
+  def buy_cat(name)
+    new_cat = Cat.new(name)
     @pets << new_cat
   end
 
-  def buy_dog
-    new_dog = Dog.new
+  def buy_dog(name)
+    new_dog = Dog.new(name)
     @pets << new_dog
   end
 
-  def buy_fish
-    new_fish = Fish.new
+  def buy_fish(name)
+    new_fish = Fish.new(name)
     @pets << new_fish
   end
 
