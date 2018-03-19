@@ -52,7 +52,7 @@ class Owner
   end
 
   def sell_pets
-    puts @pets.values
+    @pets.values.each { |pet| pet.mood=("nervous") }
 
     # @pets.clear
   end
