@@ -52,7 +52,7 @@ class Owner
   end
 
   def sell_pets
-    @pets.each { |pet| puts pet }
+    @pets.each { |pet| print pet.name }
     # @pets.clear
   end
 
