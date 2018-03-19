@@ -54,6 +54,7 @@ class Owner
   def sell_pets
     @pets.values.each do |pet_array|
       pet_array.each { |pet| pet.mood=("nervous") }
+    end
     @pets.clear
   end
 
